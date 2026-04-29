@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Build artifacts
+gen/
+mta_archives/
+*.mtar
+.cdsrc-private.json
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment / secrets
+.env
+.env.local
+default-env.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# CAP / SQLite local dev DB
+*.db
+*.db-journal
+
+# OS
+Thumbs.db
